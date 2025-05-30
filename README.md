@@ -1,5 +1,5 @@
 This is a anonymous open source repository for paper "A Large Scale Empirical Analysis on the Adherence Gap between Standards and Tools in SBOM".
-The generated SBOMs are at Zenodo: [https://zenodo.org/records/14998625](https://zenodo.org/records/14998625).
+The generated SBOMs are at Zenodo: [https://zenodo.org/records/15553839](https://zenodo.org/records/15553839).
 
 ## Introduction
 
@@ -17,7 +17,7 @@ These gaps indicate the potential unreliability of current SBOM tools in meeting
 
 ## Dataset
 
-We release all the 27,795 generated SBOMs by the six tools at Zenodo: [https://zenodo.org/records/14998625](https://zenodo.org/records/14998625).
+We release all the 27,795 generated SBOMs by the six tools at Zenodo: [https://zenodo.org/records/15553839](https://zenodo.org/records/15553839).
 The Zenodo link also includes fast check code and related test SBOMs.
 
 ## Usage
@@ -38,7 +38,7 @@ All the scripts in SAP for SBOM generation locate at `run-sbom-tools` folder. Th
 
 ### For fast check on test SBOMs
 
-We provide a small dataset in the test-sboms folder for you to test the code. Download the `run-on-test-sboms.zip` at [https://zenodo.org/records/14998625](https://zenodo.org/records/14998625), and unzip it, then follow the instruction.
+We provide a small dataset in the test-sboms folder for you to test the code. Download the `run-on-test-sboms.zip` at [https://zenodo.org/records/15553839](https://zenodo.org/records/15553839), and unzip it, then follow the instruction.
 
 We provide a all-in-one script to run the code for evaluating the adherence gap of SBOM tools and SBOM standards. You can run the following command to run the code on the test-sboms dataset:
 
@@ -50,7 +50,7 @@ python test-run.py
 As the test sboms are just 42 randomly selected repositories from Python part of the $D_{repo}$, the results are different from our paper but still can check our code. If you want to run the code on all the SBOMs, see next part.
 
 ### Run on all SBOMs
-If you want to rerun the whole process of SAP on all SBOMs, download and unzip the all-sboms.zip(around 50GB after unzip) at [https://zenodo.org/records/14998625](https://zenodo.org/records/14998625), and change the `dir` in test-run.py and rerun again(possible clean up of the result dir is needed).
+If you want to rerun the whole process of SAP on all SBOMs, download and unzip the all-sboms.zip(around 50GB after unzip) at [https://zenodo.org/records/15553839](https://zenodo.org/records/15553839), and change the `dir` in test-run.py and rerun again(possible clean up of the result dir is needed).
 
 The results of the `test-run.py` will be in the `test-sbom-results` folder.
 
