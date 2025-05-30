@@ -82,7 +82,7 @@ def purl_consistency(p1, p2):
                 score += jaro(str(p1_dict[key]).lower() if p1_dict[key] != None else '', str(p2_dict[key]).lower() if p2_dict[key] != None else '')
             score *= weight
     except Exception as e:
-        logger.error(f'SHIIIIIIITTT purl: {p1}||{p2}')
+        logger.error(f'purl: {p1}||{p2}')
         return jaro(p1.lower(), p2.lower())
     return score
 
